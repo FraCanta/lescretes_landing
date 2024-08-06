@@ -28,15 +28,15 @@ export default async function mailer(req, res) {
     />
   );
 
-  const thankHtml = render(
-    <Thanks
-      name={name}
-      surname={surname}
-      email={email}
-      phone={phone}
-      message={message}
-    />
-  );
+  // const thankHtml = render(
+  //   <Thanks
+  //     name={name}
+  //     surname={surname}
+  //     email={email}
+  //     phone={phone}
+  //     message={message}
+  //   />
+  // );
 
   try {
     await transporter.sendMail({
@@ -48,12 +48,12 @@ export default async function mailer(req, res) {
     });
 
     // Invio della mail di ringraziamento
-    await transporter.sendMail({
-      from: `Les Crêtes info <thalliondev@gmail.com>`,
-      to: email,
-      subject: "Grazie per averci contattato",
-      html: thankHtml,
-    });
+    // await transporter.sendMail({
+    //   from: `Les Crêtes info <thalliondev@gmail.com>`,
+    //   to: email,
+    //   subject: "Grazie per averci contattato",
+    //   html: thankHtml,
+    // });
 
     return res.status(200).json({ error: "" });
   } catch (error) {

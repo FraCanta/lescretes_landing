@@ -37,8 +37,8 @@ export function Thanks(props) {
           <Text style={paragraph}>
             Abbiamo ricevuto la tua richiesta di prenotazione e ti risponderemo
             al più presto per confermare tutti i dettagli. Siamo entusiasti di
-            offrirti un'esperienza indimenticabile tra i nostri vigneti e di
-            farti scoprire i nostri vini.
+            offrirti un&apos;esperienza indimenticabile tra i nostri vigneti e
+            di farti scoprire i nostri vini.
           </Text>
           <Text style={paragraph}>
             Per qualsiasi ulteriore informazione o chiarimento, non esitare a
