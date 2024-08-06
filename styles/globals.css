@@ -2,32 +2,49 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
+html,
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+button {
+  font-family: "minerva-modern", sans-serif;
+  color: #4a4a49;
+}
+
+p,
+span {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 300;
 }
 
 @layer utilities {
-  .text-balance {
-    text-wrap: balance;
+  .bg-pattern2a {
+    background-image: url("../public/assets/pattern2.png");
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    background-position: bottom;
   }
+}
+
+.degustazione {
+  background-image: url("../public/assets/rifugio/rifugio3.webp");
+  background-size: cover;
+  background-position: center;
+  z-index: 999;
 }

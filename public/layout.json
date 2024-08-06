@@ -1,0 +1,140 @@
+{
+  "menu": {
+    "it": {
+      "storia": {
+        "name": "Chi siamo"
+      },
+      "vini": "Vini",
+      "degustazioni": "Degustazioni",
+      "news": "Megazine",
+      "cosmesi": "DeVin Cosmetica",
+      "download": "Press Kit",
+      "store": "Store Locator",
+      "contatti": "Contatti"
+    },
+    "en": {
+      "storia": {
+        "name": "About us"
+      },
+      "vini": "Wines",
+      "degustazioni": "Tastings",
+      "news": "News",
+      "cosmesi": "DeVin Cosmetics",
+      "download": "Download Area",
+      "store": "Store Locator",
+      "contatti": "Contacts"
+    },
+    "fr": {
+      "storia": {
+        "name": "About us"
+      },
+      "vini": "Wines",
+      "degustazioni": "Tastings",
+      "news": "News",
+      "cosmesi": "DeVin Cosmetics",
+      "download": "Download Area",
+      "store": "Store Locator",
+      "contatti": "Contacts"
+    },
+    "de": {
+      "storia": {
+        "name": "About us"
+      },
+      "vini": "Wines",
+      "degustazioni": "Tastings",
+      "news": "News",
+      "cosmesi": "Cosmetics",
+      "download": "Download Area",
+      "store": "Store Locator",
+      "contatti": "Contacts"
+    },
+    "ko": {
+      "storia": {
+        "name": "About us"
+      },
+      "vini": "Wines",
+      "degustazioni": "Tastings",
+      "news": "News",
+      "cosmesi": "Cosmetics",
+      "download": "Download Area",
+      "store": "Store Locator",
+      "contatti": "Contacts"
+    },
+    "jp": {
+      "storia": {
+        "name": "About us"
+      },
+      "vini": "Wines",
+      "degustazioni": "Tastings",
+      "news": "News",
+      "cosmesi": "Cosmetics",
+      "download": "Download Area",
+      "store": "Store Locator",
+      "contatti": "Contacts"
+    },
+    "ru": {
+      "storia": {
+        "name": "About us",
+        "sottomenu": [
+          {
+            "name": "The Charrère family",
+            "imgSrc": "/assets/lc.jpg",
+            "link": "/la-famiglia-charrere",
+            "title": "storia dell'azienda"
+          },
+          {
+            "name": "The refuge of wine",
+            "imgSrc": "/assets/rifugio/rifugio6.webp",
+            "link": "/il-rifugio-del-vino",
+            "title": "il rifugio del vino"
+          },
+          {
+            "name": "The Terroir",
+            "imgSrc": "/assets/terroir.jpg",
+            "link": "/il-terroir",
+            "title": "il terroir"
+          }
+        ]
+      },
+      "vini": "Wines",
+      "degustazioni": "Tastings",
+      "news": "News",
+      "cosmesi": "Cosmetics",
+      "download": "Download Area",
+      "store": "Store Locator",
+      "contatti": "Contacts"
+    },
+    "zh": {
+      "storia": {
+        "name": "About us",
+        "sottomenu": [
+          {
+            "name": "The Charrère family",
+            "imgSrc": "/assets/lc.jpg",
+            "link": "/la-famiglia-charrere",
+            "title": "storia dell'azienda"
+          },
+          {
+            "name": "The refuge of wine",
+            "imgSrc": "/assets/rifugio/rifugio6.webp",
+            "link": "/il-rifugio-del-vino",
+            "title": "il rifugio del vino"
+          },
+          {
+            "name": "The Terroir",
+            "imgSrc": "/assets/terroir.jpg",
+            "link": "/il-terroir",
+            "title": "il terroir"
+          }
+        ]
+      },
+      "vini": "Wines",
+      "degustazioni": "Tastings",
+      "news": "News",
+      "cosmesi": "Cosmetics",
+      "download": "Download Area",
+      "store": "Store Locator",
+      "contatti": "Contacts"
+    }
+  }
+}

@@ -1,0 +1,360 @@
+{
+  "home": {
+    "hero": {
+      "title": "Mountain viticulture",
+      "p": "Discover the authenticity and excellence of our wines, the result of a unique territory and a craftsmanship that enhances the wine traditions of the Aosta Valley.",
+      "download": "Download brochure",
+      "book": "Book your experience"
+    },
+    "seo": {
+      "title": "Les Crêtes | Winegrowers since 1750 | Passion and Mountain | Aosta Valley - Italy",
+      "description": "Les Crêtes - Winegrowers since 1750 in Aymavilles (Aosta) - Production and bottling - Visit us and taste our wines - Discover the Wine Refuge"
+    },
+    "section2": {
+      "title": "Tradition and innovation",
+      "descrizione": "The history of the Charrère family since 1750 still sees today the respect of traditions, values and environment handed down with wisdom for 6 generations. Passion, craftsmanship, love for the terroir, spirit of innovation and care for the field and cellar are the driving force behind Les Crêtes, which is dedicated to heroic viticulture in the Aosta Valley with body and soul.",
+      "family": "The Charrère family",
+      "rifugio": "The refuge",
+      "terroir": "The Terroir"
+    },
+    "section3": {
+      "title": "In the heart of Valle d'Aosta with the Wine Refuge, Les Crêtes opens the doors to its world",
+      "descrizione": "We are waiting for you in the tasting room & Wine Shop Il Rifugio del Vino, where with a view on the vineyards, you can meet us, discover our wines and the heart of our cellar, with a dedicated experience",
+      "scopri": "Book your experience"
+    },
+    "section4": {
+      "title": "Mountain wines, the children of a heroic viticulture",
+      "descrizione": "Our wines express the essence of the Valdostano terroir. They are the children of a heroic and artisanal viticulture, made of extreme and difficult conditions. Created with passion and wisdom, they are dedicated to amateurs and experts. Fresh, elegant, they tell of the mountain and the family that produces them. They are the children of small vineyards cultivated by hand and cared for in detail, to obtain healthy grapes with low yields, following both in the field and in the cellar, traditional and eco-sustainable practices to protect the environment. The annual total production is on average around 225,000 bottles."
+    },
+    "tabs": [
+      {
+        "name": "Reds",
+        "content": [
+          {
+            "img": "/assets/vinirossi/merle.png",
+            "name": "Merlot Le Merle® ",
+            "link": "/i-vini/rossi/merle",
+            "cat": "rossi",
+            "vitigni": "Merlot 100%",
+            "origine": "D.O.P."
+          },
+          {
+            "img": "/assets/vinirossi/cornalin.png",
+            "name": "Cornalin",
+            "link": "/i-vini/rossi/cornalin",
+            "cat": "rossi",
+            "vitigni": "Cornalin 100%",
+            "origine": "D.O.P."
+          },
+          {
+            "img": "/assets/vinirossi/fumin_lacor.png",
+            "name": "Fumin La Cor®",
+            "link": "/i-vini/rossi/lacor",
+            "cat": "rossi",
+            "vitigni": "Fumin 100%",
+            "origine": "D.O.P."
+          },
+          {
+            "img": "/assets/vinirossi/fumin.png",
+            "name": "Fumin",
+            "link": "/i-vini/rossi/fumin",
+            "cat": "rossi",
+            "vitigni": "Fumin 100%",
+            "origine": "D.O.P."
+          },
+
+          {
+            "img": "/assets/vinirossi/nebbiolo.png",
+            "name": "Nebbiolo Sommet",
+            "link": "/i-vini/rossi/nebbiolos",
+            "cat": "rossi",
+            "vitigni": "Nebbiolo 100%",
+            "origine": "D.O.P."
+          },
+          {
+            "img": "/assets/vinirossi/nebbiolo.png",
+            "name": "Nebbiolo",
+            "link": "/i-vini/rossi/nebbiolo",
+            "cat": "rossi",
+            "vitigni": "Nebbiolo 100%",
+            "origine": "D.O.P."
+          },
+          {
+            "img": "/assets/vinirossi/pinot_nero.png",
+            "name": "Pinot Noir",
+            "link": "/i-vini/rossi/pinot",
+            "cat": "rossi",
+            "vitigni": "Pinot Nero 100% (selezione di Borgogna)",
+            "origine": "D.O.P."
+          },
+          {
+            "img": "/assets/vinirossi/pinot_revei.png",
+            "name": "Pinot Nero Revei",
+            "link": "/i-vini/rossi/revei",
+            "cat": "rossi",
+            "vitigni": "Pinot Nero 100% (varietà tradizionale)",
+            "origine": "D.O.P."
+          },
+
+          {
+            "img": "/assets/vinirossi/sabla.png",
+            "name": "La Sabla® – Vino Rosso",
+            "link": "/i-vini/rossi/sabla",
+            "cat": "rossi",
+            "vitigni": "Blend di varietà a bacca nera",
+            "origine": "D.O.P."
+          },
+          {
+            "img": "/assets/vinirossi/lasabla_50.webp",
+            "name": "La Sabla® 50 anni",
+            "link": "/i-vini/rossi/sabla50",
+            "cat": "rossi",
+            "vitigni": "20% Syrah 20% Petit Rouge 20%Merlot 20%Fumin 20% Fumin appassito",
+            "origine": "D.O.P."
+          },
+          {
+            "img": "/assets/vinirossi/syrah.png",
+            "name": "Syrah",
+            "link": "/i-vini/rossi/syrah",
+            "cat": "rossi",
+            "vitigni": "Syrah 100%",
+            "origine": "D.O.P."
+          },
+          {
+            "img": "/assets/vinirossi/torrette_sup.png",
+            "name": "Torrette Superiore",
+            "link": "/i-vini/rossi/torrettesup",
+            "cat": "rossi",
+            "vitigni": "Petit Rouge 100%",
+            "origine": "D.O.P."
+          },
+          {
+            "img": "/assets/vinirossi/torrette.png",
+            "name": "Torrette",
+            "link": "/i-vini/rossi/torrette",
+            "cat": "rossi",
+            "vitigni": "Petit Rouge 70%, Varietà Autoctone 30%",
+            "origine": "D.O.P."
+          },
+          {
+            "img": "/assets/vinirossi/monrouge.png",
+            "name": "Mon Rouge®",
+            "link": "/i-vini/rossi/monrouge",
+            "cat": "rossi",
+            "vitigni": "Cornalin, Fumin, Vuillermin, Gamay, Petit Rouge",
+            "origine": "D.O.P."
+          }
+        ]
+      },
+      {
+        "name": "Whites",
+        "content": [
+          {
+            "img": "/assets/vinibianchi/chardonnay_cb2.webp",
+            "name": "Chardonnay Cuvée Bois",
+            "link": "/i-vini/bianchi/chardonnaycb",
+            "cat": "bianchi",
+            "vitigni": "Chardonnay 100%",
+            "origine": "D.O.P."
+          },
+          {
+            "img": "/assets/vinibianchi/chardonnay.png",
+            "name": "Chardonnay",
+            "link": "/i-vini/bianchi/chardonnay",
+            "cat": "bianchi",
+            "vitigni": "Chardonnay 100%",
+            "origine": "D.O.P."
+          },
+
+          {
+            "img": "/assets/vinibianchi/neige.png",
+            "name": "Neige d’Or",
+            "link": "/i-vini/bianchi/neige",
+            "cat": "bianchi",
+            "vitigni": "Petite Arvine 60%, Pinot Gris 40%",
+            "origine": "D.O.P."
+          },
+          {
+            "img": "/assets/vinibianchi/petite_arvine.png",
+            "name": "Petite Arvine",
+            "link": "/i-vini/bianchi/petitearvine",
+            "cat": "bianchi",
+            "vitigni": "Petite Arvine 100%",
+            "origine": "D.O.P."
+          },
+          {
+            "img": "/assets/vinibianchi/petite_fleur.png",
+            "name": "Petite Arvine Fleur",
+            "link": "/i-vini/bianchi/petitefleur",
+            "cat": "bianchi",
+            "vitigni": "Petite Arvine 100%",
+            "origine": "D.O.P."
+          },
+          {
+            "img": "/assets/vinibianchi/pinot_grigio.png",
+            "name": "Pinot Gris Brulant",
+            "link": "/i-vini/bianchi/pinotgris",
+            "cat": "bianchi",
+            "vitigni": "Pinot Gris 100%",
+            "origine": "D.O.P."
+          },
+          {
+            "img": "/assets/vinibianchi/mon_blanc.png",
+            "name": "Mon Blanc – Vino bianco",
+            "link": "/i-vini/bianchi/monblanc",
+            "cat": "bianchi",
+            "vitigni": "Blend di varietà autoctone ed internazionali a bacca bianca.",
+            "origine": "D.O.P."
+          }
+        ]
+      },
+      {
+        "name": "Rosè",
+        "content": [
+          {
+            "img": "/assets/vinirose/rose.png",
+            "name": "Rosé",
+            "link": "/i-vini/rose/rose",
+            "cat": "rosè",
+            "vitigni": "Petit Rouge",
+            "origine": "D.O.P."
+          }
+        ]
+      },
+      {
+        "name": "Bubbles and Dessert",
+        "content": [
+          {
+            "img": "/assets/vinidessert/dorè2.webp",
+            "name": "Doré",
+            "link": "/i-vini/vinidessert/dore",
+            "cat": "bollicine e dessert",
+            "vitigni": "Varietà aromatica a bacca bianca 100%.",
+            "origine": "D.O.P."
+          },
+          {
+            "img": "/assets/vinidessert/neblu.png",
+            "name": "Neblù Brut Nature Rosè",
+            "link": "/i-vini/vinidessert/neblu",
+            "cat": "bollicine e dessert",
+            "vitigni": "Rosé, varietà internazionale a bacca nera 60%, Neblu 40% (varietà autoctona a bacca nera)",
+            "origine": "D.O.P."
+          },
+          {
+            "img": "/assets/vinidessert/reban.png",
+            "name": "Rebàn Pas Dosé",
+            "link": "/i-vini/vinidessert/reban",
+            "cat": "bollicine e dessert",
+            "vitigni": "Bianco, 100% varietà tradizionale",
+            "origine": "D.O.P."
+          }
+        ]
+      }
+    ],
+    "section5": {
+      "references": {
+        "title": "Contact",
+        "phone": "Phone",
+        "address": "Address",
+        "mapdirect": "Directions",
+        "listRef": {
+          "title": "More contacts*",
+          "list": [
+            {
+              "name": "- Foreign Trade:",
+              "value": "ordini@lescretes.it"
+            },
+            {
+              "name": "- Commercial Italy:",
+              "value": "corti.giulio@gmail.com"
+            },
+            {
+              "name": "- Accounting:",
+              "value": "contabilita@lescretes.it"
+            },
+            {
+              "name": "- Winemaker:",
+              "value": "enologo@lescretes.it"
+            },
+            {
+              "name": "- Guides, press contacts and magazines:",
+              "value": "elena@lescretes.it"
+            },
+            {
+              "name": "- Warehouse:",
+              "value": "magazzino@lescretes.it"
+            },
+            {
+              "name": "- Production, suppliers, agronomy:",
+              "value": "eleonora@lescretes.it"
+            },
+            {
+              "name": "- Secretariat, orders, shipments and invoicing:",
+              "value": "ordini@lescretes.it"
+            }
+          ]
+        },
+        "col1": {
+          "title": "Wine Shop & Tasting Hours",
+          "days": "From Monday to Friday / Sunday",
+          "close": "Saturday"
+        }
+      },
+      "formContact": {
+        "title": "Would you rather send us a message?",
+        "name": "Name*",
+        "surname": "Surname*",
+        "numero": "Phone*",
+        "reason": {
+          "reasonTitle": "Contact reason*",
+          "reasonList": [
+            {
+              "name": "Foreign Trade",
+              "value": "foreign trade"
+            },
+            {
+              "name": "Commercial Italy",
+              "value": "commercial italy"
+            },
+            {
+              "name": "Administrative",
+              "value": "administrative"
+            },
+            {
+              "name": "Oenological information",
+              "value": "oenological information"
+            },
+            {
+              "name": "Guides, press contacts and magazines",
+              "value": "guides, press and magazines"
+            },
+            {
+              "name": "Orders, shipping and billing",
+              "value": "orders, shipping and billing"
+            },
+            {
+              "name": "Warehouse",
+              "value": "warehouse"
+            },
+
+            {
+              "name": "Information request",
+              "value": "information request"
+            },
+            {
+              "name": "Other",
+              "value": "other"
+            }
+          ]
+        },
+        "nation": "Nationality*",
+        "messaggio": {
+          "name": "Message*",
+          "placeholder": "Write your message..."
+        },
+        "check": "<span class='opacity-75'>* I declare that I have read and understood the</span> <a class='font-bold text-main' href='/privacy' target='_blank'>privacy policy*</a>",
+        "submit": "Send request"
+      }
+    }
+  }
+}
