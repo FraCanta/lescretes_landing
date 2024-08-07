@@ -11,11 +11,9 @@ import {
   Section,
   Text,
   Tailwind,
-  Link,
   Hr,
   Heading,
 } from "@react-email/components";
-import { Icon } from "@iconify/react";
 
 export function Email2(props) {
   const { name, surname, email, phone, message, reason, nation } = props;
@@ -40,7 +38,6 @@ export function Email2(props) {
             </Section>
             <Section>
               <Row>
-                <Text className="font-bold">Nome della degustazione:</Text>
                 <Text>{reason}</Text>
               </Row>
               <Hr className="border border-solid  my-[10px] mx-0 w-full" />

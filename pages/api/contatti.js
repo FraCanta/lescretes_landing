@@ -1,18 +1,17 @@
-import { render } from "@react-email/components";
-import nodemailer from "nodemailer";
-import { Thanks } from "@/components/sections/Section5/thanks";
 import { Email2 } from "@/components/sections/Section5/email2";
+import { Thanks } from "@/components/sections/Section5/thanks";
+import nodemailer from "nodemailer";
 
 export default async function mailer(req, res) {
   const { name, surname, email, phone, message, reason, nation } = req.body;
 
   const transporter = nodemailer.createTransport({
     host: "smtp.ionos.it",
-    port: 587,
-    secure: false,
+    port: 465,
+    secure: true,
     auth: {
-      user: process.env.SMTP_USER,
-      pass: process.env.SMTP_PASSWORD,
+      user: "info@lescretes.it",
+      pass: "MvSX1q4Bxn89!",
     },
   });
 
@@ -40,15 +39,16 @@ export default async function mailer(req, res) {
 
   try {
     await transporter.sendMail({
-      from: `Les Crêtes`,
-      to: ["info@lescretes.it"],
+      from: `Les Crêtes degustazioni `,
+      to: ["thalliondev@gmail.com", "info@thallion-dev.it"],
       subject: `Info: ${reason}`,
       replyTo: `${email}`,
       html: emailHtml,
     });
 
+    // Invio della mail di ringraziamento
     await transporter.sendMail({
-      from: `Les Crêtes`,
+      from: `Les Crêtes info `,
       to: email,
       subject: "Grazie per averci contattato",
       html: thankHtml,
