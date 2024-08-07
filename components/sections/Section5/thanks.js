@@ -35,10 +35,9 @@ export function Thanks(props) {
               </Column>
             </Row>
           </Section>
-          <Text style={paragraph}>Hi {name},</Text>
+          <Text style={paragraph}>Salve {name},</Text>
           <Text style={paragraph}>
-            Grazie per averci contattato e per aver scelto la nostra azienda per
-            la tua degustazione di vini.
+            Grazie per averci contattato e per aver scelto la nostra azienda.
           </Text>
           <Text style={paragraph}>
             Abbiamo ricevuto la tua richiesta ti risponderemo al più presto per
@@ -48,11 +47,11 @@ export function Thanks(props) {
             Per qualsiasi ulteriore informazione o chiarimento, non esitare a
             contattarci.
           </Text>
-          {/* <Section style={btnContainer}>
-            <Button style={button} href="https://getkoala.com">
-              Get started
+          <Section style={btnContainer}>
+            <Button style={button} href="https://www.lescretes.it/">
+              Visita il sito
             </Button>
-          </Section> */}
+          </Section>
           <Text style={paragraph}>
             Cordiali saluti,
             <br />
@@ -93,8 +92,8 @@ const btnContainer = {
 };
 
 const button = {
-  backgroundColor: "#5F51E8",
-  borderRadius: "3px",
+  backgroundColor: "#4A4A49",
+  borderRadius: "32px",
   color: "#fff",
   fontSize: "16px",
   textDecoration: "none",
