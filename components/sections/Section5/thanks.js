@@ -1,57 +1,49 @@
 import * as React from "react";
 import {
   Body,
-  Button,
-  Column,
   Container,
   Head,
   Hr,
   Html,
   Img,
-  Preview,
-  Row,
-  Section,
   Text,
 } from "@react-email/components";
 export function Thanks(props) {
-  const { name, surname } = props;
+  const { name } = props;
 
   return (
     <Html>
       <Head />
-      <Preview>
-        The sales intelligence platform that helps you uncover qualified leads.
-      </Preview>
+
       <Body style={main}>
         <Container style={container}>
-          <Section className="py-10">
-            <Row>
-              <Column className="w-full text-center">
-                <Img
-                  src="https://i.ibb.co/Vp42ftY/logo.png"
-                  alt="company_logo"
-                  className="object-contain w-full h-[100px]"
-                />
-              </Column>
-            </Row>
-          </Section>
-          <Text style={paragraph}>Salve {name},</Text>
+          <Img
+            src={`public/logo/logo.ong`}
+            width="170"
+            height="50"
+            alt="Koala"
+            style={logo}
+          />
+          <Text style={paragraph}>Hi {name},</Text>
           <Text style={paragraph}>
-            Grazie per averci contattato e per aver scelto la nostra azienda.
+            Grazie per averci contattato e per aver scelto la nostra azienda per
+            la tua degustazione di vini.
           </Text>
           <Text style={paragraph}>
-            Abbiamo ricevuto la tua richiesta ti risponderemo al più presto per
-            confermare tutti i dettagli.
+            Abbiamo ricevuto la tua richiesta di prenotazione e ti risponderemo
+            al più presto per confermare tutti i dettagli. Siamo entusiasti di
+            offrirti un&apos;esperienza indimenticabile tra i nostri vigneti e
+            di farti scoprire i nostri vini.
           </Text>
           <Text style={paragraph}>
             Per qualsiasi ulteriore informazione o chiarimento, non esitare a
             contattarci.
           </Text>
-          <Section style={btnContainer}>
-            <Button style={button} href="https://www.lescretes.it/">
-              Visita il sito
+          {/* <Section style={btnContainer}>
+            <Button style={button} href="https://getkoala.com">
+              Get started
             </Button>
-          </Section>
+          </Section> */}
           <Text style={paragraph}>
             Cordiali saluti,
             <br />
@@ -92,8 +84,8 @@ const btnContainer = {
 };
 
 const button = {
-  backgroundColor: "#4A4A49",
-  borderRadius: "32px",
+  backgroundColor: "#5F51E8",
+  borderRadius: "3px",
   color: "#fff",
   fontSize: "16px",
   textDecoration: "none",

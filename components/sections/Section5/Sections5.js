@@ -90,7 +90,7 @@ const Sections5 = ({ translation }) => {
             <p className="text-main/80">9.30 – 19.20</p>
           </nav>
         </div>
-        <div className="flex flex-col gap-10">
+        {/* <div className="flex flex-col gap-10">
           <h2 className="text-3xl font-bold">
             {translation.formContact.title}
           </h2>
@@ -99,8 +99,8 @@ const Sections5 = ({ translation }) => {
             setInputs={setInputs}
             translation={translation.formContact}
           />
-        </div>
-        {/* <iframe
+        </div> */}
+        <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2786.319582227219!2d7.245004511971469!3d45.704625217244065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478921853216a0e5%3A0x1b38ef9ac6af5c76!2sLes%20Cr%C3%AAtes%20Produzione%20e%20vendita%20Vini!5e0!3m2!1sit!2sit!4v1723031679015!5m2!1sit!2sit"
           width="600"
           height="450"
@@ -108,7 +108,7 @@ const Sections5 = ({ translation }) => {
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
           className="w-full h-full aspect-square"
-        ></iframe> */}
+        ></iframe>
       </div>
     </>
   );

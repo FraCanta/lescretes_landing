@@ -28,13 +28,7 @@ export default async function mailer(req, res) {
   );
 
   const thankHtml = render(
-    <Thanks
-      name={name}
-      surname={surname}
-      email={email}
-      phone={phone}
-      message={message}
-    />
+    <Thanks name={name} email={email} phone={phone} message={message} />
   );
 
   try {
