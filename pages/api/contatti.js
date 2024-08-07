@@ -9,7 +9,7 @@ export default async function mailer(req, res) {
   const transporter = nodemailer.createTransport({
     host: "smtp.ionos.it",
     port: 587,
-    secure: true,
+    secure: false,
     auth: {
       user: process.env.SMTP_USER,
       pass: process.env.SMTP_PASSWORD,
@@ -40,7 +40,7 @@ export default async function mailer(req, res) {
 
   try {
     await transporter.sendMail({
-      from: `Les Crêtes info`,
+      from: `Les Crêtes`,
       to: ["info@lescretes.it"],
       subject: `Info: ${reason}`,
       replyTo: `${email}`,
@@ -48,8 +48,8 @@ export default async function mailer(req, res) {
     });
 
     await transporter.sendMail({
-      from: `Les Crêtes info`,
-      to: ["info@lescretes.it"],
+      from: `Les Crêtes`,
+      to: email,
       subject: "Grazie per averci contattato",
       html: thankHtml,
     });
