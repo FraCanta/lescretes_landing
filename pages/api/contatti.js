@@ -28,32 +28,31 @@ export default async function mailer(req, res) {
     />
   );
 
-  // const thankHtml = render(
-  //   <Thanks
-  //     name={name}
-  //     surname={surname}
-  //     email={email}
-  //     phone={phone}
-  //     message={message}
-  //   />
-  // );
+  const thankHtml = render(
+    <Thanks
+      name={name}
+      surname={surname}
+      email={email}
+      phone={phone}
+      message={message}
+    />
+  );
 
   try {
     await transporter.sendMail({
-      from: `Les Crêtes contatti <echarrere@gmail.com>`,
+      from: `Les Crêtes info <echarrere@gmail.com>`,
       to: ["echarrere@gmail.com"],
       subject: `Info: ${reason}`,
       replyTo: `${email}`,
       html: emailHtml,
     });
 
-    // Invio della mail di ringraziamento
-    // await transporter.sendMail({
-    //   from: `Les Crêtes info <thalliondev@gmail.com>`,
-    //   to: email,
-    //   subject: "Grazie per averci contattato",
-    //   html: thankHtml,
-    // });
+    await transporter.sendMail({
+      from: `Les Crêtes info <echarrere@gmail.com>`,
+      to: email,
+      subject: "Grazie per averci contattato",
+      html: thankHtml,
+    });
 
     return res.status(200).json({ error: "" });
   } catch (error) {
