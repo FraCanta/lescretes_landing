@@ -40,8 +40,8 @@ export default async function mailer(req, res) {
 
   try {
     await transporter.sendMail({
-      from: `Les Crêtes degustazioni <thalliondev@gmail.com>`,
-      to: ["thalliondev@gmail.com"],
+      from: `Les Crêtes contatti <echarrere@gmail.com>`,
+      to: ["echarrere@gmail.com"],
       subject: `Info: ${reason}`,
       replyTo: `${email}`,
       html: emailHtml,
