@@ -2,12 +2,14 @@ import * as React from "react";
 import {
   Body,
   Button,
+  Column,
   Container,
   Head,
   Hr,
   Html,
   Img,
   Preview,
+  Row,
   Section,
   Text,
 } from "@react-email/components";
@@ -22,13 +24,17 @@ export function Thanks(props) {
       </Preview>
       <Body style={main}>
         <Container style={container}>
-          <Img
-            src={`public/logo/logo.ong`}
-            width="170"
-            height="50"
-            alt="Koala"
-            style={logo}
-          />
+          <Section className="py-10">
+            <Row>
+              <Column className="w-full text-center">
+                <Img
+                  src="https://i.ibb.co/Vp42ftY/logo.png"
+                  alt="company_logo"
+                  className="object-contain w-full h-[100px]"
+                />
+              </Column>
+            </Row>
+          </Section>
           <Text style={paragraph}>Hi {name},</Text>
           <Text style={paragraph}>
             Grazie per averci contattato e per aver scelto la nostra azienda per
