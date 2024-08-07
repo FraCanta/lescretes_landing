@@ -107,7 +107,7 @@ const Sections5 = ({ translation }) => {
           allowfullscreen=""
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
-          className="w-full h-full"
+          className="w-full h-full aspect-square"
         ></iframe>
       </div>
     </>
