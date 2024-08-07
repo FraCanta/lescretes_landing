@@ -35,10 +35,8 @@ export function Thanks(props) {
             la tua degustazione di vini.
           </Text>
           <Text style={paragraph}>
-            Abbiamo ricevuto la tua richiesta di prenotazione e ti risponderemo
-            al più presto per confermare tutti i dettagli. Siamo entusiasti di
-            offrirti un&apos;esperienza indimenticabile tra i nostri vigneti e
-            di farti scoprire i nostri vini.
+            Abbiamo ricevuto la tua richiesta ti risponderemo al più presto per
+            confermare tutti i dettagli.
           </Text>
           <Text style={paragraph}>
             Per qualsiasi ulteriore informazione o chiarimento, non esitare a
