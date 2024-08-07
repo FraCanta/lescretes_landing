@@ -7,12 +7,12 @@ export default async function mailer(req, res) {
   const { name, surname, email, phone, message, reason, nation } = req.body;
 
   const transporter = nodemailer.createTransport({
-    host: "smtp.gmail.com",
-    port: 465,
+    host: "smtp.ionos.it",
+    port: 587,
     secure: true,
     auth: {
-      user: "thalliondev@gmail.com",
-      pass: "lywb cntb nbqm uckr",
+      user: process.env.SMTP_USER,
+      pass: process.env.SMTP_PASSWORD,
     },
   });
 
@@ -40,16 +40,16 @@ export default async function mailer(req, res) {
 
   try {
     await transporter.sendMail({
-      from: `Les Crêtes info <echarrere@gmail.com>`,
-      to: ["echarrere@gmail.com"],
+      from: `Les Crêtes info`,
+      to: ["info@lescretes.it"],
       subject: `Info: ${reason}`,
       replyTo: `${email}`,
       html: emailHtml,
     });
 
     await transporter.sendMail({
-      from: `Les Crêtes info <echarrere@gmail.com>`,
-      to: email,
+      from: `Les Crêtes info`,
+      to: ["info@lescretes.it"],
       subject: "Grazie per averci contattato",
       html: thankHtml,
     });
