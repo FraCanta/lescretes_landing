@@ -38,7 +38,9 @@
             "link": "/i-vini/rossi/merle",
             "cat": "rossi",
             "vitigni": "Merlot 100%",
-            "origine": "D.O.P."
+            "origine": "D.O.P.",
+            "type":"red wines"
+
           },
           {
             "img": "/assets/vinirossi/cornalin.png",
@@ -46,7 +48,9 @@
             "link": "/i-vini/rossi/cornalin",
             "cat": "rossi",
             "vitigni": "Cornalin 100%",
-            "origine": "D.O.P."
+            "origine": "D.O.P.",
+            "type":"red wines"
+
           },
           {
             "img": "/assets/vinirossi/fumin_lacor.png",
@@ -54,7 +58,9 @@
             "link": "/i-vini/rossi/lacor",
             "cat": "rossi",
             "vitigni": "Fumin 100%",
-            "origine": "D.O.P."
+            "origine": "D.O.P.",
+            "type":"red wines"
+
           },
           {
             "img": "/assets/vinirossi/fumin.png",
@@ -62,7 +68,9 @@
             "link": "/i-vini/rossi/fumin",
             "cat": "rossi",
             "vitigni": "Fumin 100%",
-            "origine": "D.O.P."
+            "origine": "D.O.P.",
+            "type":"red wines"
+
           },
 
           {
@@ -71,7 +79,9 @@
             "link": "/i-vini/rossi/nebbiolos",
             "cat": "rossi",
             "vitigni": "Nebbiolo 100%",
-            "origine": "D.O.P."
+            "origine": "D.O.P.",
+            "type":"red wines"
+
           },
           {
             "img": "/assets/vinirossi/nebbiolo.png",
@@ -79,7 +89,9 @@
             "link": "/i-vini/rossi/nebbiolo",
             "cat": "rossi",
             "vitigni": "Nebbiolo 100%",
-            "origine": "D.O.P."
+            "origine": "D.O.P.",
+            "type":"red wines"
+
           },
           {
             "img": "/assets/vinirossi/pinot_nero.png",
@@ -87,7 +99,9 @@
             "link": "/i-vini/rossi/pinot",
             "cat": "rossi",
             "vitigni": "Pinot Nero 100% (selezione di Borgogna)",
-            "origine": "D.O.P."
+            "origine": "D.O.P.",
+            "type":"red wines"
+
           },
           {
             "img": "/assets/vinirossi/pinot_revei.png",
@@ -95,7 +109,9 @@
             "link": "/i-vini/rossi/revei",
             "cat": "rossi",
             "vitigni": "Pinot Nero 100% (varietà tradizionale)",
-            "origine": "D.O.P."
+            "origine": "D.O.P.",
+            "type":"red wines"
+
           },
 
           {
@@ -104,7 +120,9 @@
             "link": "/i-vini/rossi/sabla",
             "cat": "rossi",
             "vitigni": "Blend di varietà a bacca nera",
-            "origine": "D.O.P."
+            "origine": "D.O.P.",
+            "type":"red wines"
+
           },
           {
             "img": "/assets/vinirossi/lasabla_50.webp",
@@ -112,7 +130,9 @@
             "link": "/i-vini/rossi/sabla50",
             "cat": "rossi",
             "vitigni": "20% Syrah 20% Petit Rouge 20%Merlot 20%Fumin 20% Fumin appassito",
-            "origine": "D.O.P."
+            "origine": "D.O.P.",
+            "type":"red wines"
+
           },
           {
             "img": "/assets/vinirossi/syrah.png",
@@ -120,7 +140,9 @@
             "link": "/i-vini/rossi/syrah",
             "cat": "rossi",
             "vitigni": "Syrah 100%",
-            "origine": "D.O.P."
+            "origine": "D.O.P.",
+            "type":"red wines"
+
           },
           {
             "img": "/assets/vinirossi/torrette_sup.png",
@@ -128,7 +150,9 @@
             "link": "/i-vini/rossi/torrettesup",
             "cat": "rossi",
             "vitigni": "Petit Rouge 100%",
-            "origine": "D.O.P."
+            "origine": "D.O.P.",
+            "type":"red wines"
+
           },
           {
             "img": "/assets/vinirossi/torrette.png",
@@ -136,7 +160,9 @@
             "link": "/i-vini/rossi/torrette",
             "cat": "rossi",
             "vitigni": "Petit Rouge 70%, Varietà Autoctone 30%",
-            "origine": "D.O.P."
+            "origine": "D.O.P.",
+            "type":"red wines"
+
           },
           {
             "img": "/assets/vinirossi/monrouge.png",
@@ -144,7 +170,9 @@
             "link": "/i-vini/rossi/monrouge",
             "cat": "rossi",
             "vitigni": "Cornalin, Fumin, Vuillermin, Gamay, Petit Rouge",
-            "origine": "D.O.P."
+            "origine": "D.O.P.",
+            "type":"red wines"
+
           }
         ]
       },
@@ -157,7 +185,9 @@
             "link": "/i-vini/bianchi/chardonnaycb",
             "cat": "bianchi",
             "vitigni": "Chardonnay 100%",
-            "origine": "D.O.P."
+            "origine": "D.O.P.",
+            "type":"white wines"
+
           },
           {
             "img": "/assets/vinibianchi/chardonnay.png",
@@ -165,7 +195,9 @@
             "link": "/i-vini/bianchi/chardonnay",
             "cat": "bianchi",
             "vitigni": "Chardonnay 100%",
-            "origine": "D.O.P."
+            "origine": "D.O.P.",
+            "type":"white wines"
+
           },
 
           {
@@ -174,7 +206,9 @@
             "link": "/i-vini/bianchi/neige",
             "cat": "bianchi",
             "vitigni": "Petite Arvine 60%, Pinot Gris 40%",
-            "origine": "D.O.P."
+            "origine": "D.O.P.",
+            "type":"white wines"
+
           },
           {
             "img": "/assets/vinibianchi/petite_arvine.png",
@@ -182,7 +216,9 @@
             "link": "/i-vini/bianchi/petitearvine",
             "cat": "bianchi",
             "vitigni": "Petite Arvine 100%",
-            "origine": "D.O.P."
+            "origine": "D.O.P.",
+            "type":"white wines"
+
           },
           {
             "img": "/assets/vinibianchi/petite_fleur.png",
@@ -190,7 +226,9 @@
             "link": "/i-vini/bianchi/petitefleur",
             "cat": "bianchi",
             "vitigni": "Petite Arvine 100%",
-            "origine": "D.O.P."
+            "origine": "D.O.P.",
+            "type":"white wines"
+
           },
           {
             "img": "/assets/vinibianchi/pinot_grigio.png",
@@ -198,7 +236,9 @@
             "link": "/i-vini/bianchi/pinotgris",
             "cat": "bianchi",
             "vitigni": "Pinot Gris 100%",
-            "origine": "D.O.P."
+            "origine": "D.O.P.",
+            "type":"white wines"
+
           },
           {
             "img": "/assets/vinibianchi/mon_blanc.png",
@@ -206,7 +246,9 @@
             "link": "/i-vini/bianchi/monblanc",
             "cat": "bianchi",
             "vitigni": "Blend di varietà autoctone ed internazionali a bacca bianca.",
-            "origine": "D.O.P."
+            "origine": "D.O.P.",
+            "type":"white wines"
+
           }
         ]
       },
@@ -219,7 +261,9 @@
             "link": "/i-vini/rose/rose",
             "cat": "rosè",
             "vitigni": "Petit Rouge",
-            "origine": "D.O.P."
+            "origine": "D.O.P.",
+            "type":"rosè wines"
+
           }
         ]
       },
@@ -232,7 +276,9 @@
             "link": "/i-vini/vinidessert/dore",
             "cat": "bollicine e dessert",
             "vitigni": "Varietà aromatica a bacca bianca 100%.",
-            "origine": "D.O.P."
+            "origine": "D.O.P.",
+            "type":"bubble and desserts wines"
+
           },
           {
             "img": "/assets/vinidessert/neblu.png",
@@ -240,7 +286,9 @@
             "link": "/i-vini/vinidessert/neblu",
             "cat": "bollicine e dessert",
             "vitigni": "Rosé, varietà internazionale a bacca nera 60%, Neblu 40% (varietà autoctona a bacca nera)",
-            "origine": "D.O.P."
+            "origine": "D.O.P.",
+            "type":"bubble and desserts wines"
+
           },
           {
             "img": "/assets/vinidessert/reban.png",
@@ -248,7 +296,9 @@
             "link": "/i-vini/vinidessert/reban",
             "cat": "bollicine e dessert",
             "vitigni": "Bianco, 100% varietà tradizionale",
-            "origine": "D.O.P."
+            "origine": "D.O.P.",
+            "type":"bubble and desserts wines"
+
           }
         ]
       }

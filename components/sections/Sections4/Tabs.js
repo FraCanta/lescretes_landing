@@ -116,7 +116,7 @@ const Tabs = ({ tabs }) => {
                 >
                   <div className="flex flex-col items-center w-full gap-1 p-2">
                     <p className="text-sm uppercase text-main/85 font-regular ">
-                      Vini {content.cat}
+                     {content.type}
                     </p>
                     <h2 className=" text-center text-main text-[20px] font-bold  leading-snug fxl:text-xl ">
                       {content.name}
