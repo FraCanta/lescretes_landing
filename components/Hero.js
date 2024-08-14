@@ -49,7 +49,7 @@ const HeroHome3 = ({ translation }) => {
             </div>
 
             <div className="flex flex-wrap items-center justify-center gap-6 lg:mt-4">
-              <CtaOutline link="/pdf/brochure.pdf" title="brochure">
+              <CtaOutline link={translation.pdf} title="brochure">
                 {translation.download}{" "}
                 <Icon icon="material-symbols:download" className="w-6 h-6" />
               </CtaOutline>{" "}

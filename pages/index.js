@@ -143,7 +143,7 @@ export default function Home({ translation, locale }) {
         <Sections5 translation={translation.section5} locale={locale} />
       </div>
       {/* Bottone per scaricare la brochure */}
-      <ScrollButton link="/pdf/brochure.pdf" title="Scarica la brochure">
+      <ScrollButton link={translation.hero.pdf} title="Scarica la brochure">
         {translation?.hero.download}{" "}
         <Icon icon="material-symbols:download" className="w-6 h-6" />
       </ScrollButton>
