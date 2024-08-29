@@ -23,7 +23,7 @@ const Sections5 = ({ translation }) => {
       <div className="w-[90%] mx-auto py-20 lg:py-10 grid grid-cols-1 lg:grid-cols-2 gap-y-20 lg:gap-10">
         <div className="flex flex-col gap-10">
           <h2 className="text-3xl font-bold">{translation.references.title}</h2>
-          <div className="grid grid-cols-2 gap-y-10">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-y-10">
             <ContactCard
               color="main"
               title="Email*"
