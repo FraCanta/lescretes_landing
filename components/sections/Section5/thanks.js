@@ -26,11 +26,10 @@ export function Thanks(props) {
           />
           <Text style={paragraph}>Hi {name},</Text>
           <Text style={paragraph}>
-            Grazie per averci contattato e per aver scelto la nostra azienda per
-            la tua degustazione di vini.
+            Grazie per averci contattato.
           </Text>
           <Text style={paragraph}>
-            Abbiamo ricevuto la tua richiesta di prenotazione e ti risponderemo
+            Abbiamo ricevuto la tua richiesta e ti risponderemo
             al più presto per confermare tutti i dettagli. Siamo entusiasti di
             offrirti un&apos;esperienza indimenticabile tra i nostri vigneti e
             di farti scoprire i nostri vini.

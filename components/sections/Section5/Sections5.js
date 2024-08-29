@@ -31,6 +31,11 @@ const Sections5 = ({ translation }) => {
             />
             <ContactCard
               color="main"
+              title={translation.references.gift}
+              description=" ordini@lescretes.it"
+            />
+            <ContactCard
+              color="main"
               title={translation.references.phone}
               description="(+ 39) 0165 / 90 22 74 "
             />

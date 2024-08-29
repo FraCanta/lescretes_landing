@@ -131,7 +131,7 @@ export default function Home({ translation, locale }) {
         <Sections3 translation={translation?.section3} />
       </div>
       <div
-        className="relative flex flex-col items-center justify-center min-h-screen "
+        className="flex flex-col items-center justify-center min-h-screen "
         id="vini"
       >
         <Sections4 translation={translation.section4} tabs={translation.tabs} />
