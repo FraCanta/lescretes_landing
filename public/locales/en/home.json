@@ -30,7 +30,7 @@
     },
     "tabs": [
       {
-        "name": "Reds",
+        "name": "Red wines",
         "content": [
           {
             "img": "/assets/vinirossi/merle.png",
@@ -92,7 +92,7 @@
             "name": "Pinot Noir",
             "link": "/i-vini/rossi/pinot",
             "cat": "rossi",
-            "vitigni": "Pinot Nero 100% (selezione di Borgogna)",
+            "vitigni": "Pinot Nero 100% (Burgundian selection)",
             "origine": "D.O.P.",
             "type": "red wines"
           },
@@ -101,17 +101,17 @@
             "name": "Pinot Nero Revei",
             "link": "/i-vini/rossi/revei",
             "cat": "rossi",
-            "vitigni": "Pinot Nero 100% (varietà tradizionale)",
+            "vitigni": "Pinot Nero 100% (traditional variety)",
             "origine": "D.O.P.",
             "type": "red wines"
           },
 
           {
             "img": "/assets/vinirossi/sabla.png",
-            "name": "La Sabla® – Vino Rosso",
+            "name": "La Sabla® – Red Wine",
             "link": "/i-vini/rossi/sabla",
             "cat": "rossi",
-            "vitigni": "Blend di varietà a bacca nera",
+            "vitigni": "blend of native, red grapes from old and young vines",
             "origine": "D.O.P.",
             "type": "red wines"
           },
@@ -120,13 +120,13 @@
             "name": "La Sabla® 50 anni",
             "link": "/i-vini/rossi/sabla50",
             "cat": "rossi",
-            "vitigni": "20% Syrah 20% Petit Rouge 20%Merlot 20%Fumin 20% Fumin appassito",
+            "vitigni": "20% Syrah, 20% Petit Rouge 20%, Merlot, 20% Fumin, 20% Fumin Late harvest",
             "origine": "D.O.P.",
             "type": "red wines"
           },
           {
             "img": "/assets/vinirossi/syrah.png",
-            "name": "Syrah",
+            "name": "Syrah La Tour",
             "link": "/i-vini/rossi/syrah",
             "cat": "rossi",
             "vitigni": "Syrah 100%",
@@ -147,7 +147,7 @@
             "name": "Torrette",
             "link": "/i-vini/rossi/torrette",
             "cat": "rossi",
-            "vitigni": "Petit Rouge 70%, Varietà Autoctone 30%",
+            "vitigni": "Petit Rouge 70%, autochthonous grapes 30% (Mayolet, Cornalin, Fumin)",
             "origine": "D.O.P.",
             "type": "red wines"
           },
@@ -156,14 +156,14 @@
             "name": "Mon Rouge®",
             "link": "/i-vini/rossi/monrouge",
             "cat": "rossi",
-            "vitigni": "Cornalin, Fumin, Vuillermin, Gamay, Petit Rouge",
+            "vitigni": "Blend of local black varieties: Cornalin, Fumin, Vuillermin, Gamay, Petit Rouge.",
             "origine": "D.O.P.",
             "type": "red wines"
           }
         ]
       },
       {
-        "name": "Whites",
+        "name": "White wines",
         "content": [
           {
             "img": "/assets/vinibianchi/chardonnay_cb2.webp",
@@ -225,55 +225,64 @@
             "name": "Mon Blanc – Vino bianco",
             "link": "/i-vini/bianchi/monblanc",
             "cat": "bianchi",
-            "vitigni": "Blend di varietà autoctone ed internazionali a bacca bianca.",
+            "vitigni": "Blend of native and international white grape varieties.",
             "origine": "D.O.P.",
+            "type": "white wines"
+          },
+          {
+            "img": "/assets/vinibianchi/chambave.webp",
+            "name": "Chambave Moscato",
+            "link": "/i-vini/bianchi/chambave",
+            "cat": "bianchi",
+            "vitigni": "Moscato 100%",
+            "origine": "D.O.C.",
             "type": "white wines"
           }
         ]
       },
       {
-        "name": "Rosè",
+        "name": "Rosè wines",
         "content": [
           {
             "img": "/assets/vinirose/rose.png",
             "name": "Rosé",
             "link": "/i-vini/rose/rose",
             "cat": "rosè",
-            "vitigni": "Petit Rouge",
+            "vitigni": "Petit Rouge 100%",
             "origine": "D.O.P.",
             "type": "rosè wines"
           }
         ]
       },
       {
-        "name": "Bubbles and Dessert",
+        "name": "Bubbles and Dessert Wines",
         "content": [
           {
             "img": "/assets/vinidessert/dorè2.webp",
-            "name": "Doré",
+            "name": "Doré® - Moscato Bianco",
             "link": "/i-vini/vinidessert/dore",
             "cat": "bollicine e dessert",
-            "vitigni": "Varietà aromatica a bacca bianca 100%.",
+            "vitigni": "Aromatic white grape variety 100%",
             "origine": "D.O.P.",
-            "type": "bubble and desserts wines"
+            "type": "Bubbles and Dessert Wines"
           },
           {
             "img": "/assets/vinidessert/neblu.png",
             "name": "Neblù Brut Nature Rosè",
             "link": "/i-vini/vinidessert/neblu",
             "cat": "bollicine e dessert",
-            "vitigni": "Rosé, varietà internazionale a bacca nera 60%, Neblu 40% (varietà autoctona a bacca nera)",
+            "vitigni": "International, red grape variety 60%, Neblu 40% (native grape of Valle d’Aosta).",
             "origine": "D.O.P.",
-            "type": "bubble and desserts wines"
+            "type": "Bubbles and Dessert Wines"
           },
           {
             "img": "/assets/vinidessert/reban.png",
             "name": "Rebàn Pas Dosé",
             "link": "/i-vini/vinidessert/reban",
             "cat": "bollicine e dessert",
-            "vitigni": "Bianco, 100% varietà tradizionale",
+            "vitigni": "Petite Arvine, 100% traditional variety",
             "origine": "D.O.P.",
-            "type": "bubble and desserts wines"
+            "type": "Bubbles and Dessert Wines"
           }
         ]
       }
