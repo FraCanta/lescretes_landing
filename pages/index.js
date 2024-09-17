@@ -147,6 +147,12 @@ export default function Home({ translation, locale }) {
         {translation?.hero.download}{" "}
         <Icon icon="material-symbols:download" className="w-6 h-6" />
       </ScrollButton>
+      <div className="overflow-hidden">
+        <div
+          className="elfsight-app-8796ac78-14f4-4066-aaa0-fe8fdd176218"
+          data-elfsight-app-lazy
+        ></div>
+      </div>
     </>
   );
 }
