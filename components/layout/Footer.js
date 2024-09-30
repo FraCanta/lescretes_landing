@@ -12,14 +12,7 @@ const Footer = ({ translation }) => {
         <aside>
           <p>
             Copyright © 2024 Les Crêtes - P.iva 00520450073 | All Rights
-            Reserved |{" "}
-            <Link
-              href="/privacy"
-              title="Pagina privacy policy"
-              className="underline"
-            >
-              Privacy Policy
-            </Link>
+            Reserved
           </p>
         </aside>
       </footer>
