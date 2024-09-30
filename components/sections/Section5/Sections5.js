@@ -19,16 +19,20 @@ const Sections5 = ({ translation }) => {
   });
   return (
     <>
-      {/* <Hero text={translation.hero.title} img={Rifugio} /> */}
       <div className="w-[90%] mx-auto py-20 lg:py-10 grid grid-cols-1 lg:grid-cols-2 gap-y-20 lg:gap-10">
         <div className="flex flex-col gap-10">
           <h2 className="text-3xl font-bold">{translation.references.title}</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-y-10">
-            <ContactCard
-              color="main"
-              title="Email*"
-              description=" info@lescretes.it"
-            />
+            <div className="flex flex-col gap-1">
+              <h4 className="text-[20px]  font-bold text-main">Email*</h4>
+
+              <Link
+                className="text-main text-[17px] fxl:text-xl"
+                href="mailto:info@lescretes.it"
+              >
+                info@lescretes.it
+              </Link>
+            </div>
             <ContactCard
               color="main"
               title={translation.references.gift}
@@ -95,16 +99,7 @@ const Sections5 = ({ translation }) => {
             <p className="text-main/80">9.30 – 19.20</p>
           </nav>
         </div>
-        {/* <div className="flex flex-col gap-10">
-          <h2 className="text-3xl font-bold">
-            {translation.formContact.title}
-          </h2>
-          <ContactForm
-            inputs={inputs}
-            setInputs={setInputs}
-            translation={translation.formContact}
-          />
-        </div> */}
+
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2786.319582227219!2d7.245004511971469!3d45.704625217244065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478921853216a0e5%3A0x1b38ef9ac6af5c76!2sLes%20Cr%C3%AAtes%20Produzione%20e%20vendita%20Vini!5e0!3m2!1sit!2sit!4v1723031679015!5m2!1sit!2sit"
           width="600"

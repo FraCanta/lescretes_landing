@@ -1,7 +1,7 @@
 import { Icon } from "@iconify/react";
 import React from "react";
 
-const ContactCard = ({ icon, title, description, color }) => {
+const ContactCard = ({ title, description }) => {
   return (
     <div>
       <div className="flex w-full gap-4">
