@@ -4,14 +4,10 @@ import React, { useState, useEffect, useRef } from "react";
 import { useRouter } from "next/router";
 import Logo from "@/public/logo/logo.png";
 import Mobile from "./mobile";
-import { motion, AnimatePresence } from "framer-motion";
-import { Icon } from "@iconify/react";
 
 const NavBar = ({ translation }) => {
-  console.log(translation);
   const { locale, pathname } = useRouter();
   const [menuOpen, setMenuOpen] = useState(false);
-  const [hoveredItem, setHoveredItem] = useState(null);
   const menuRef = useRef(null); // Riferimento per il sottomenu
 
   useEffect(() => {
