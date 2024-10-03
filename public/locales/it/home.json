@@ -323,8 +323,16 @@
         },
         "col1": {
           "title": "Orari Wine Shop & Degustazioni",
-          "days": "Da Lunedì a Venerdì / Domenica",
-          "close": "Sabato"
+          "days": "Da Lunedì a Sabato",
+          "close": "Domenica chiuso*",
+          "openAvailable": [
+            {
+              "text": " *Domenica 3 Novembre aperto"
+            },
+            {
+              "text": "*Domenica 8 e 28 Dicembre aperto"
+            }
+          ]
         }
       },
       "formContact": {

@@ -333,8 +333,16 @@
         },
         "col1": {
           "title": "Wine Shop & Tasting Hours",
-          "days": "From Monday to Friday / Sunday",
-          "close": "Saturday"
+          "days": "From Monday to Saturday",
+          "close": "Close on Sunday",
+          "openAvailable": [
+            {
+              "text": " *Open on Sunday, November 3rd"
+            },
+            {
+              "text": "*Open on Sunday, December 8th and 28th"
+            }
+          ]
         }
       },
       "formContact": {
