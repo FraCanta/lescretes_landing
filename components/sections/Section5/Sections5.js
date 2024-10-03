@@ -91,7 +91,11 @@ const Sections5 = ({ translation }) => {
             <p className="font-bold text-main/90">
               {translation?.references.col1.days}
             </p>
-            <p className="text-main/80">9.30 – 13.00 / 14.30 – 18.50</p>
+            <p className="text-main/80">8.30 – 13.00 / 14.30 – 19.00</p>
+            <p className="font-bold text-main/90">
+              {translation?.references.col1.saturday}
+            </p>
+            <p className="text-main/80">9.30 – 13.00 / 14.30 – 19.00</p>
             <p className="font-bold text-main/90">
               {translation?.references.col1.close}
             </p>

@@ -323,7 +323,8 @@
         },
         "col1": {
           "title": "Orari Wine Shop & Degustazioni",
-          "days": "Da Lunedì a Sabato",
+          "days": "Da Lunedì a Venerdì",
+          "saturday": "Sabato",
           "close": "Domenica chiuso*",
           "openAvailable": [
             {
