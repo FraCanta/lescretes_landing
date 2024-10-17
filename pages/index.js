@@ -14,7 +14,9 @@ import Sections5 from "@/components/sections/Section5/Sections5";
 import Head from "next/head";
 import ScrollButton from "@/components/ScrollButton/ScrollButton";
 import { Icon } from "@iconify/react";
-
+import NavBar from "@/components/layout/NavBar";
+import Footer from "@/components/layout/Footer";
+import LayoutTranslation from "@/public/layout.json";
 export default function Home({ translation, locale }) {
   return (
     <>
@@ -120,6 +122,7 @@ export default function Home({ translation, locale }) {
           />
         </>
       </Head>
+      <NavBar translation={LayoutTranslation?.menu} />
       <Hero translation={translation?.hero} />
       <div className="min-h-screen" id="chisiamo">
         <Sections2 translation={translation?.section2} />
@@ -153,6 +156,7 @@ export default function Home({ translation, locale }) {
           data-elfsight-app-lazy
         ></div>
       </div>
+      <Footer translation={LayoutTranslation?.footer} />
     </>
   );
 }

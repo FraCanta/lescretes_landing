@@ -7,9 +7,8 @@ import Script from "next/script";
 export default function App({ Component, pageProps }) {
   return (
     <>
-      <Layout>
-        <Component {...pageProps} />
-      </Layout>
+      <Component {...pageProps} />
+
       {/* Elfsight Platform */}
       <Script
         src="https://static.elfsight.com/platform/platform.js"
