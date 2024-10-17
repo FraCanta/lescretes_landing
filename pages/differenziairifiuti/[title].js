@@ -2,7 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import React from "react";
 
-function SinglePage({ locale }) {
+function SinglePage() {
   return (
     <>
       <Head>
@@ -84,12 +84,12 @@ function SinglePage({ locale }) {
         />
       </Head>
       <div className="w-[90%] mx-auto h-screen flex items-center justify-center ">
-        <div className="relative aspect-square w-[400px] h-[400px] lg:w-[800px] lg:h-[800px] p-20">
+        <div className="relative aspect-square w-[400px] h-[400px] lg:w-[800px] lg:h-[800px] ">
           <Image
             src="/tabella.jpg"
             alt="Static Image"
             fill
-            className="w-full h-full obejct-cover"
+            className="w-full h-full px-4 obejct-cover"
           />
         </div>
       </div>
@@ -99,11 +99,9 @@ function SinglePage({ locale }) {
 
 export default SinglePage;
 
-export async function getStaticProps(locale) {
+export async function getStaticProps() {
   return {
-    props: {
-      locale: locale,
-    }, // Non ci sono props da passare, visto che l'immagine è statica
+    props: {}, // Non ci sono props da passare, visto che l'immagine è statica
   };
 }
 
