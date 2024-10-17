@@ -12,11 +12,11 @@ const Footer = () => {
             Reserved |{" "}
             <Link
               href="https://www.iubenda.com/privacy-policy/43776831"
-              className="iubenda-white iubenda-noiframe iubenda-embed"
-              title="Privacy Policy"
+              className="iubenda-white iubenda-noiframe iubenda-embed "
+              title="Privacy Policy "
               target="_blank"
             >
-              Privacy Policy |
+              Privacy Policy
             </Link>
             <Link
               href="https://www.iubenda.com/privacy-policy/43776831/cookie-policy"
