@@ -335,11 +335,8 @@
           "title": "Wine Shop & Tasting Hours",
           "days": "From Monday to Friday",
           "saturday": "Saturday",
-          "close": "Close on Sunday",
+          "close": "We are closed: December 24th, 25th, 26th, and 31st, January 1st, January 6th, and Sundays*.",
           "openAvailable": [
-            {
-              "text": " *Open on Sunday, November 3rd"
-            },
             {
               "text": "*Open on Sunday, December 8th and 28th"
             }
