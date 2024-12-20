@@ -325,13 +325,10 @@
           "title": "Orari Wine Shop & Degustazioni",
           "days": "Da Lunedì a Venerdì",
           "saturday": "Sabato",
-          "close": "Domenica chiuso*",
+          "close": "Siamo chiusi: 24/25/26 e 31 Dicembre, 1 Gennaio, 6 Gennaio e le domeniche*",
           "openAvailable": [
             {
-              "text": " *Domenica 3 Novembre aperto"
-            },
-            {
-              "text": "*Domenica 8 e 28 Dicembre aperto"
+              "text": "*Open on Sunday, December 29th, and January 5th."
             }
           ]
         }
