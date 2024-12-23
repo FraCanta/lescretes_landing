@@ -17,6 +17,7 @@ import { Icon } from "@iconify/react";
 import NavBar from "@/components/layout/NavBar";
 import Footer from "@/components/layout/Footer";
 import LayoutTranslation from "@/public/layout.json";
+import { FloatingWhatsApp } from "react-floating-whatsapp";
 export default function Home({ translation, locale }) {
   return (
     <>
@@ -150,12 +151,17 @@ export default function Home({ translation, locale }) {
         {translation?.hero.download}{" "}
         <Icon icon="material-symbols:download" className="w-6 h-6" />
       </ScrollButton>
-      <div className="overflow-hidden">
-        <div
-          className="elfsight-app-8796ac78-14f4-4066-aaa0-fe8fdd176218"
-          data-elfsight-app-lazy
-        ></div>
-      </div>
+      <FloatingWhatsApp
+        phoneNumber="+390165902274"
+        avatar="/apple-touch-icon.png"
+        accountName="Les Cretes"
+        statusMessage="Ti risponderemo al più presto"
+        allowClickAway
+        notification
+        chatMessage="Ciao, come possiamo aiutarti?"
+        notificationSound={true}
+        placeholder="Scrivi un messaggio..."
+      />
       <Footer translation={LayoutTranslation?.footer} />
     </>
   );

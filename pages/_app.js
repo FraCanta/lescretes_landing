@@ -9,12 +9,6 @@ export default function App({ Component, pageProps }) {
     <>
       <Component {...pageProps} />
 
-      {/* Elfsight Platform */}
-      <Script
-        src="https://static.elfsight.com/platform/platform.js"
-        data-use-service-core
-        strategy="afterInteractive"
-      ></Script>
       {/* Configurazione Iubenda */}
       <Script id="iubenda-cs-configuration" strategy="afterInteractive">
         {`
