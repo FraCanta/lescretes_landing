@@ -161,6 +161,9 @@ export default function Home({ translation, locale }) {
         chatMessage="Ciao, come possiamo aiutarti?"
         notificationSound={true}
         placeholder="Scrivi un messaggio..."
+        style={{
+          bottom: "6rem",
+        }}
       />
       <Footer translation={LayoutTranslation?.footer} />
     </>

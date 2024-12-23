@@ -34,6 +34,15 @@ export default function App({ Component, pageProps }) {
         async
         strategy="afterInteractive"
       />
+
+       <Script id="google-analytics" strategy="afterInteractive">
+            {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-N78X2SJWPF', { 'debug_mode': true });
+        `}
+          </Script>
     </>
   );
 }

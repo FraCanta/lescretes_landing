@@ -27,7 +27,7 @@ const ScrollButton = ({ link, title, threshold = 300, children }) => {
         href={link}
         passHref
         download
-        className="fixed flex items-center gap-2 px-4 py-2 text-white transition-all rounded-full shadow-lg bottom-32 right-8 bg-main hover:bg-white hover:text-main z-[9999999]"
+        className="fixed flex items-center gap-2 px-4 py-2 text-white transition-all rounded-full shadow-lg bottom-6 right-8 bg-main hover:bg-white hover:text-main z-[9999999]"
       >
         {children}
       </a>
