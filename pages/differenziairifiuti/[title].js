@@ -66,7 +66,7 @@ function SinglePage() {
           property="twitter:url"
           content="https://www.lescretes.it/differenziairifiuti/separethewaste"
         />
-        <meta name="twitter:title" content="Les Crêtes - Separe the wast" />
+        <meta name="twitter:title" content="Les Crêtes - Separe the waste" />
         <meta name="twitter:description" content="Recycling Table" />
         <script
           type="application/ld+json"
